@@ -1,0 +1,13 @@
+.circle {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  width: 15px;
+  height: 15px;
+  border-radius: 9999px;
+  border: 2px solid white;
+  background-color: green;
+}
+.name {
+  color: gray;
+}

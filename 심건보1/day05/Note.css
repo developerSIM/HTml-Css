@@ -1,0 +1,28 @@
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 15px 10px 15px 10px;
+  border-radius: 6px;
+  width: 200px;
+}
+
+.photo {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.name {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+}
+.icon {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 3px 4px 5px 4px;
+}
