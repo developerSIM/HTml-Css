@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "SacheonUju-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/SacheonUju-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.first {
+  height: 100vh;
+  background-image: url(https://pixabay.com/get/gadf0e2c6759b5ccce05f7b02c68b2497d75b44ff8aa859d81d3bfb9821cac29526b606799c358cc4bfd1cbf52a07ec02efcf908852343244de3e0f698a9fc4c8_640.jpg);
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first > .contents > h2 {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  line-height: 1.2;
+  font-family: "SacheonUju-Regular";
+}
